@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BLOOD BANK MANAGEMENT</title>
+    <style>
+        body, html {
+  height: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.bg-img {
+  background-image: url("about.png");
+  min-height: 200px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+
+.container {
+  position: absolute;
+  margin: 20px;
+  width: auto;
+}
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color:rgb(141, 27, 27);
+  color: rgb(1, 2, 2);
+}
+
+
+.topnav {
+  overflow: hidden;
+  background-color:transparent;
+}
+
+.topnav a {
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.blood-img{
+  background-color: white(187, 92, 92);
+  padding: 15px;
+  background-position: bottom;
+  background-image: url("blood.png");
+  background-repeat: no-repeat;
+  min-height: 400px;
+  min-width: 600px; 
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color:rgb(97, 97, 97);
+  color: white;
+  background-image: url("about.png");
+  min-height: 200px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+.collapsible {
+  background-color:white;
+  color: black;
+  cursor: pointer;
+  padding: 20px;
+  width: 100%;
+  border: none;
+  text-align: center;
+  outline: none;
+  font-size: 17px;
+}
+
+.active,.collapsible:hover {
+  background-color: brown;                                                                                                                                                                                                                                                                      f                                        
+}
+
+.content{
+  padding: 18px;
+  display: none;
+  overflow : hidden;
+  background-color: white;
+}
+    </style>
+
+</head>
+<body>
+    <div class="bg-img">
+        <div class="container">
+          <div class="topnav">
+            <a href="index.html">LOGIN</a>
+            <a href="routes/register.html">REGISTER</a>
+            <a href="#contact">DONOR</a>
+            <a href="#about">RECIPIENT</a>
+          </div>
+        </div>
+      </div>
+      <div class="blood-img">
+       
+      </div>
+      <div class="about-section">
+        <h1>TYPES OF DONATION</h1>
+       <p>
+        The human body contains five liters of blood, which is made of several useful components i.e. Whole blood, Platelet, and Plasma.
+        
+        Each type of component has several medical uses and can be used for different medical treatments. your blood donation determines the best donation for you to make.
+        
+        For plasma and platelet donation you must have donated whole blood in past two years.
+        
+        </p>
+        <p>After donating blood, the body works to replenish the blood loss. This stimulates the production of new blood cells and in turn, helps in maintaining good health.</p>
+      </div>
+      
+     
+     
+        <div class="box">
+          <div class="bottomnav">
+          </div>
+        </div>
+        <button type="button" class="collapsible">Whole Blood</button>
+<div class="content">
+          <b><h>What is it?</h></b>
+          <p>
+            Blood Collected straight from the donor after its donation usually separated into red blood cells, platelets, and plasma.</p>
+            <b><h>Who can donate?</h></b>
+          <p>You need to be 18-65 years old, weigh 45kg or more and be fit and healthy.</p>
+          <b><h>User For?</h></b>
+          <p>Stomach disease, kidney disease, childbirth, operations, blood loss, trauma, cancer, blood diseases, haemophilia, anemia, heart disease.</p>
+          <b><h>Lasts For?</h></b>
+          <p>Red cells can be stored for 42 days.</p>
+          <b><h>How long does it take?</h></b>
+          <p>15 minutes to donate.</p>
+        <b><h>How often can I donate?</h></b>
+          <p>Every 12 weeks</p>
+</div>
+<button type="button" class="collapsible">Plasma</button>
+<div class="content">
+  <b><h>What is it?</h></b>
+  <p>The straw-coloured liquid in which red blood cells, white blood cells, and platelets float in.Contains special nutrients which can be used to create 18 different type of medical products to treat many different medical conditions.</p>
+  <b><h>Who can donate?</h></b>
+  <p>You need to be 18-70 (men) or 20-70 (women) years old, weigh 50kg or more and must have given successful whole blood donation in last two years.</p>
+  <b><h>User For?</h></b>
+  <p>Immune system conditions, pregnancy (including anti-D injections), bleeding, shock, burns, muscle and nerve conditions, haemophilia, immunisations.</p>
+  <b><h>Lasts For?</h></b>
+  <p>Plasma can last up to one year when frozen.</p>
+  <b><h>How does it work?</h></b>
+  <p>We collect your blood, keep plasma and return rest to you by apheresis donation.</p>
+  <b><h>How long does it take?</h></b>
+  <p>15 minutes to donate.</p>
+  <b><h>How often can I donate?</h></b>
+  <p>Every 2-3 weeks</p>
+</div>
+<button type="button" class="collapsible">Platelet</button>
+<div class="content">
+
+          <b>X<h>What is it?</h></b>
+          <p>The tiny 'plates' in blood that wedge together to help to clot<br> 
+            and reduce bleeding. Always in high demand, Vital for people with low platelet count,<br>
+             like malaria and cancer patients</p>
+             <b><h>Who can donate?</h></b>
+          <p>You need to be 18-70 years old (men), weigh 50kg or more and have given<br>
+             a successful plasma donation in the past 12 months</p>
+             <b><h>User For?</h></b>
+          <p>Cancer, blood diseases, haemophilia, anaemia, heart disease,<br>
+             stomach disease, kidney disease, childbirth, operations, blood loss,<br>
+              trauma, burns.</p>
+              <b><h>Lasts For?</h></b>
+          <p>Just five days..</p>
+          <b><h>How does it work?</h></b>
+          <p>We collect your blood, keep platelet and return<br>
+             rest to you by apheresis donation.</p>
+             <b><h>How long does it take?</h></b>
+          <p>45 minutes to donate.</p>
+          <b><h>How often can I donate?</h></b>
+          <p>Every 2 weeks</p>
+  
+</div>
+<script>
+  var coll = document.getElementsByClassName("collapsible");
+  var i;
+  
+  for (i = 0; i < coll.length; i++) {
+    coll[i].addEventListener("click", function() {
+      this.classList.toggle("active");
+      var content = this.nextElementSibling;
+      if (content.style.display === "block") {
+        content.style.display = "none";
+      } else {
+        content.style.display = "block";
+      }
+    });
+  }
+  </script>
+       
+      </body>
+      </html>
+      
+      
+        
+       
